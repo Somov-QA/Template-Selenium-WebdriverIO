@@ -8,7 +8,7 @@
     <br>package
     <br>package-lock
 </p>
-<h3>Инструкция:</h>
+<h3>Инструкция:</h3>
 <br>Настроить проекта. команда: <b>npm init -y</b>
 <br>Установить WebdriverIO CLI. команда: <b>npm i --save-dev @wdio/cli</b>
 <br>Создать файл конфигурации. Перейти в папку /node_modules/.bin/ и выполнить команду: <b>wdio config -y</b> (в результате создан файл wdio.conf.js)
