@@ -13,12 +13,8 @@
 <br>Установить WebdriverIO CLI. команда: <b>npm i --save-dev @wdio/cli</b>
 <br>Создать файл конфигурации. Перейти в папку /node_modules/.bin/ и выполнить команду: <b>wdio config -y</b> (в результате создан файл wdio.conf.js)
 <p>
-Нужно отредактировать файл /node_modules/.bin/<b>wdio.conf.js</b>
-<code>
-specs: [
-    '../../test/specs/**/*.js'
-],
-</code>
+<br>Нужно отредактировать файл /node_modules/.bin/<b>wdio.conf.js</b>
+<br>specs: [ '../../test/specs/**/*.js' ],
 </p>
 <br>Создать папку для тестов <b>test/specs/</b> в корне
 <br>Создать файл <b>basic.js</b> по адресу test/specs/
