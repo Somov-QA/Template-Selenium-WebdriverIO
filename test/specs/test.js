@@ -17,12 +17,12 @@ describe('a test suite', () => {    // необходим для вывода о
         assert.strictEqual(title, 'GeForce 1650 - Поиск в Google');
 
         // Проверка полученного результата поиска
-        let list = $('#rso > div:nth-child(3) > div');
+        let list = $('#rso > div:nth-child(2) > div');
         console.log('FIRST SEARCH RESULT:', list.$$(function(){
             return this.querySelectorAll('div.g');
         })[1].getText());
 
-        let listElements = $('#rso > div:nth-child(3) > div').$$('div.g');
+        let listElements = $('#rso > div:nth-child(2) > div').$$('div.g');
         console.log('LIST COUNT',listElements.length);
         assert.notStrictEqual(listElements.length , undefined);
         assert.notStrictEqual(listElements.length , 0);
