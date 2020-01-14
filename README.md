@@ -1,5 +1,6 @@
 # Проект автоматизированного тестирования Selenium (Webdriver IO)
 <br>Официальный сайт https://webdriver.io/
+<br>Официальная документация API https://webdriver.io/docs/api.html
 <br>Официальная страницы Webdriver IO на NPM https://www.npmjs.com/package/webdriverio
 <p>
     <h3>Структура проекта:</h3>
@@ -16,7 +17,7 @@
 <br>Нужно отредактировать файл /node_modules/.bin/<b>wdio.conf.js</b>
 <br>specs: [ '../../test/specs/**/*.js' ],
 </p>
-<br>Создать папку для тестов <b>test/specs/</b> в корне
+<br>Создать папку для тестов <b>test/specs/</b> в корне папке проекта
 <br>Создать файл <b>basic.js</b> по адресу test/specs/
 <br>Описать автотест в файле basic.js
 <br>Запуск теста командой: <b>wdio wdio.conf.js</b> находясь в папке /node_modules/.bin/
